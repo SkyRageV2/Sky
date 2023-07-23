@@ -10623,7 +10623,7 @@ local commands = {
 
 			local Name = filename .. ".mp4"
 			if not isfile(Name) then
-				writefile(Name, game:HttpGet("https://videos.xet1.repl.co/videos/" .. filename .. ".sky"))
+				writefile(Name, game:HttpGet("https://videos.xet1.repl.co/videos/" .. filename .. ".Sky"))
 			end
 
 			video.Video = syn and getsynasset(Name) or getcustomasset(Name)
