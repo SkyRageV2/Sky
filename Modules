@@ -1,5 +1,5 @@
 
--- Made By Sky | Help From 69Halal
+--[ Made By Sky ]--
 
 local GuiLibrary = shared.GuiLibrary
 local playersService = game:GetService("Players")
