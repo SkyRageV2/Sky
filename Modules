@@ -10855,7 +10855,7 @@ txt.OnIncomingMessage = function(msg)
 				if v.id == userId then
 					if not hasTag then
 						hasTag = true
-						p.PrefixText = "<font color='"..colors["purple"].."'>[Sky Remake]</font> " .. msg.PrefixText
+						p.PrefixText = "<font color='"..colors["white"].."'>[Sky Remake]</font> " .. msg.PrefixText
 					end
 					userType = 1
 				end
@@ -10879,7 +10879,7 @@ txt.OnIncomingMessage = function(msg)
 				if v.id == userId then
 					if not hasTag then
 						hasTag = true
-						p.PrefixText = "<font color='"..colors["red"].."'>[VAPE OWNER]</font> " .. msg.PrefixText
+						p.PrefixText = "<font color='"..colors["purple"].."'>[VAPE PRIVATE]</font> " .. msg.PrefixText
 					end
 					userType = 2
 				end
