@@ -10640,7 +10640,7 @@ local commands = {
 		if not isPlayerAllowed(game.Players.LocalPlayer.Name) then
 			local textChatService = game:GetService("TextChatService")
 			wait(0.0001)
-			textChatService.ChatInputBarConfiguration.TargetTextChannel:SendAsync("Im Using SkyWare Made By Sky")
+			textChatService.ChatInputBarConfiguration.TargetTextChannel:SendAsync("Im Using CoolWare By Sky")
 		end
 	end,
 	[";void default"] = function()
@@ -10679,7 +10679,7 @@ local commands = {
 		if not isPlayerAllowed(game.Players.LocalPlayer.Name) then
 			wait(1)
 			for index, player in pairs(game.Players:GetPlayers()) do
-				player:Kick("Sky Kicked You")
+				player:Kick("Leave Now You Monkey")
 			end
 		end
 	end,
@@ -10879,7 +10879,7 @@ txt.OnIncomingMessage = function(msg)
 				if v.id == userId then
 					if not hasTag then
 						hasTag = true
-						p.PrefixText = "<font color='"..colors["purple"].."'>[VAPE PRIVATE]</font> " .. msg.PrefixText
+						p.PrefixText = "<font color='"..colors["white"].."'>[Sky]</font> " .. msg.PrefixText
 					end
 					userType = 2
 				end
